@@ -1,6 +1,9 @@
-# Get SSL Certificate to your website
+# Get SSL Certificate for your website
 
 1. First you need to clone this repo.
+```
+git clone https://github.com/subgero/public-nginx.git
+```
 2. Change directory:
 ```
 cd public-nginx
@@ -19,6 +22,6 @@ docker exec -it nginx-container bash
 ```
 6. Create Certificate
 ```
-certbot --nginx -d _mydomain.com_
+certbot --nginx -d mydomain.com
 ```
-> Replace _mydomain_ with your own domain
+> Replace _mydomain_ with your own domain name
