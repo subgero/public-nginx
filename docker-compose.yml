@@ -1,8 +1,8 @@
 version: '3'
 services:
   nginx:
-    image: nginx
-    container_name: nginx
+    image: my-nginx-image
+    container_name: nginx-container
     ports:
       # - 80:80
       - 443:443
